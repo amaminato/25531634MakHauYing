@@ -1,7 +1,6 @@
 /*fix the size and color of the heading*/
 .heading_top{
     width: 100%;
-    height: 50px;
     background-color: black;
 }
 
@@ -9,19 +8,13 @@
 .top_content{
     width: 1200px;
     margin: 0 auto;
-    padding: 10px 20px;
-}
-
-/*remove the underlines from all links*/
-a {
-  text-decoration: none;
-  color: inherit;
+    padding: 8px 10px;
+    overflow: hidden;
 }
 
 /*set the size of heading's left side*/
 .content_left{
     float: left;
-    font-size: 24px;
     font-weight: bold;
 }
 
@@ -29,6 +22,37 @@ a {
 .amazon_icon{
     width: auto;
     height: 32px;
+}
+
+/*remove the underlines from all links*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*heading of the deliver*/
+.heading_deliver {
+    float: left;
+    padding: 6px 10px;
+    margin-left: 6px;
+    border: 1px solid transparent;
+}
+
+/*style of line 1*/
+.deliver_line1 {
+    color: white;
+    display: block;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+/*style of line 2*/
+.deliver_line2 {
+    color: white;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;
 }
 
 /*set the size of heading's right side*/
@@ -56,9 +80,9 @@ a {
 
 /*set the color and size of the lower content item by heading*/
 .item2 {
-  display: block; 
-  font-size: 13px;
-  font-weight: bold;
-  color: white;
-  line-height: 20px;
+    display: block; 
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px;
 }
