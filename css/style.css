@@ -137,6 +137,26 @@ a {
     font-size: 16px;
 }
 
+/*fix the size of the lanuage box*/
+.lanuage_box{
+    float: right;
+    margin: 6px 0 6px 10px;
+    height: 36px;
+    overflow: hidden; 
+}
+
+/*change the color of the lanuage option*/
+.lanuage_type {
+    float: left;
+    width: 60px;
+    height: 36px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0 6px;
+    font-size: 13px;
+}
+
 /*set the size of heading's right side*/
 .content_right{
     float: right;
