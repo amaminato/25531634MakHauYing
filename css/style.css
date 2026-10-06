@@ -105,48 +105,6 @@ a {
     font-size: 16px;
 }
 
-/*style of the searching box*/
-.search_box {
-    float: left;
-    margin: 6px 0 6px 10px;
-    height: 36px;
-    overflow: hidden; 
-}
-
-/*fix the type of the searching part*/
-.search_type {
-    float: left;
-    width: 60px;
-    height: 36px;
-    border: none;
-    background-color:antiquewhite;
-    color: black;
-    padding: 0 6px;
-    font-size: 13px;
-}
-
-/*style of the input by search*/
-.search_input {
-    float: left;
-    width: 600px;
-    height: 36px;
-    border: none;
-    padding: 0 10px;
-    font-size: 14px;
-    outline: none;
-}
-
-/*style of the searching button*/
-.search_btn {
-    float: left;
-    width: 45px;
-    height: 36px;
-    border: none;
-    background-color: orange;
-    cursor: pointer;
-    font-size: 16px;
-}
-
 /*fix the size of the lanuage box*/
 .lanuage_box{
     float: right;
@@ -248,6 +206,7 @@ a {
     color: white;
     overflow: hidden;
 }
+
 /*set the background color of card1*/
 .card_toy {
     background-color:black;
@@ -293,77 +252,79 @@ a {
 
 /*set the size and background color of the section*/
 .section {
-  width: 100%;
-  padding: 20px 0;
-  background-color: white;
+    width: 100%;
+    padding: 20px 0;
+    background-color: white;
 }
 
 /*set the size of all content*/
 .section_content {
-  width: 1500px;
-  margin: 0 auto;
+    width: 1500px;
+    margin: 0 auto;
 }
 
 /*set the size and color into bigger column in section's content*/
 .big_column{
-  float: left;
-  width: 345px;
-  height: 420px;
-  margin: 10px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
+    float: left;
+    width: 345px;
+    height: 420px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
 }
 
 /*set the size into bigger title in section's content*/
 .big_title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 16px;
-  color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: black;
 }
 
 /*set the size into smaller column in section's content*/
 .small_column{
-  width: 100%;
+    width: 100%;
 }
 
 /*set the size into smaller item in section's content*/
 .small_item {
-  float: left;
-  width: 140px;
-  height: 170px;
-  margin: 4px;
-  padding: 6px;
+    float: left;
+    width: 140px;
+    height: 170px;
+    margin: 4px;
+    padding: 6px;
 }
 
 /*set the size of the photo in section's content*/
 .small_img {
-  width: 100%;
-  height: 110px;
-  object-fit: cover;
-  display: block;
-  border-radius: 4px;
-  margin-bottom: 6px;
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 6px;
 }
 
 /*set the size of the text into smaller section's content*/
 .small_text {
-  font-size: 13px;
-  color: #333;
-  line-height: 16px;
+    font-size: 13px;
+    color: #333;
+    line-height: 16px;
 }
 
+/*style of the sign box*/
 .sign_box {
     width: 1200px;
     margin: 20px auto;
     padding: 30px 0;
-    background-color: white；
-    border： 1px solid white;
+    background-color: white;
+    border: 1px solid white;
     border-radius: 8px;
     text-align: center;
 }
 
+/*size and color of the sign's title*/
 .sign_title {
     font-size: 24px;
     font-weight: bold;
@@ -371,6 +332,7 @@ a {
     margin-bottom: 20px;
 }
 
+/*style of the sign button*/
 .sign_btn {
     display: block;
     width: 300px;
@@ -431,7 +393,7 @@ a {
 }
 
 /*size of the content by the footer's bottom*/
-.footer_bottom_content {
+.bottom_content {
     width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -462,4 +424,26 @@ a {
     border-radius: 4px;
     font-size: 13px;
     vertical-align: middle;
+}
+
+/*style of the privacy*/
+.privacy {
+  width: 100%;
+  background-color: darkblue;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*size of the content by privacy*/
+.privacy_content{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*style of the link of the privacy*/
+.privacy_link {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 12px;
+  color: white;
 }
