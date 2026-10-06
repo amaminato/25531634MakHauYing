@@ -55,6 +55,88 @@ a {
     line-height: 15px;
 }
 
+/*style of the searching box*/
+.search_box {
+    float: left;
+    margin: 6px 0 6px 10px;
+    height: 36px;
+    overflow: hidden; 
+}
+
+/*fix the type of the searching part*/
+.search_type {
+    float: left;
+    width: 60px;
+    height: 36px;
+    border: none;
+    background-color:antiquewhite;
+    color: black;
+    padding: 0 6px;
+    font-size: 13px;
+}
+
+/*style of the input by search*/
+.search_input {
+    float: left;
+    width: 600px;
+    height: 36px;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+/*style of the searching button*/
+.search_btn {
+    float: left;
+    width: 45px;
+    height: 36px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    font-size: 16px;
+}/*style of the searching box*/
+.search_box {
+    float: left;
+    margin: 6px 0 6px 10px;
+    height: 36px;
+    overflow: hidden; 
+}
+
+/*fix the type of the searching part*/
+.search_type {
+    float: left;
+    width: 60px;
+    height: 36px;
+    border: none;
+    background-color:antiquewhite;
+    color: black;
+    padding: 0 6px;
+    font-size: 13px;
+}
+
+/*style of the input by search*/
+.search_input {
+    float: left;
+    width: 600px;
+    height: 36px;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+/*style of the searching button*/
+.search_btn {
+    float: left;
+    width: 45px;
+    height: 36px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 /*set the size of heading's right side*/
 .content_right{
     float: right;
