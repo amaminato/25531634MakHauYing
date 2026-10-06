@@ -1,3 +1,11 @@
+/*to prevent the card's layout from being altered by the content below it*/
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /*fix the size and color of the heading*/
 .heading_top{
     width: 100%;
