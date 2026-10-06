@@ -421,3 +421,45 @@ a {
     margin-bottom: 8px;
     color: white;
 }
+
+/*style of the bottom*/
+.footer_bottom {
+    width: 100%;
+    background-color: rgb(31, 31, 61);
+    padding: 20px 0;
+    border-top: 1px solid #3a4553;
+}
+
+/*size of the content by the footer's bottom*/
+.footer_bottom_content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*size of the footer's logo*/
+.footer_logo {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+/*size of the photo of iogo*/
+.footer_logo_img {
+    height: 32px;
+    width: auto;
+    display: block;
+}
+
+/*style of the option for footer*/
+.footer_select {
+    display: inline-block;
+    padding: 6px 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 13px;
+    vertical-align: middle;
+}
