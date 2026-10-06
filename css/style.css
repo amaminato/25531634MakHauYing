@@ -190,3 +190,28 @@ a {
     color: white;
     line-height: 20px;
 }
+
+/*size and color of the subtitle*/
+.subtitle{
+    width: 100%;
+    background-color: rgb(47, 47, 81);
+    color: #fff;
+}
+
+/*fix the size of the content*/
+.subtitle_content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 8px 10px;
+    overflow: hidden;
+}
+
+/*fix the size and color of the word*/
+.sub_link{
+    display: inline-block;
+    padding: 6px 10px;
+    margin-right: 4px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid transparent;
+}
