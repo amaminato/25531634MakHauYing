@@ -215,3 +215,70 @@ a {
     color: white;
     border: 1px solid transparent;
 }
+
+/*fix the size of the promote column*/
+.promo{
+    width: 100%;
+    padding: 20px 0;
+    background-color: white;
+}
+
+/*fix the size by the content of promote*/
+.promo_content{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+/*fix the size of all od the card*/
+.content_card {
+    float: left;
+    width: 280px;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    overflow: hidden;
+}
+/*set the background color of card1*/
+.card_toy {
+    background-color:black;
+}
+
+/*set the background color of card2*/
+.card_deliver{
+    background-color: rgb(55, 165, 208);
+}
+
+/*set the background color of card3*/
+.card_zzz{
+    background-color: gold;
+}
+
+/*set the background color of card4*/
+.card_w{
+    background-color:rgb(90, 25, 146);
+}
+
+/*fix the size of the card title*/
+.card_title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-bottom: 6px;
+}
+
+/*fix the size of the card's subtitle*/
+.card_subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+/*fix the size of the card's photo*/
+.card_img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
