@@ -1,5 +1,64 @@
+/*fix the size and color of the heading*/
 .heading_top{
     width: 100%;
     height: 50px;
     background-color: black;
+}
+
+/*fix the size all of the heading content*/
+.top_content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+/*remove the underlines from all links*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*set the size of heading's left side*/
+.content_left{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*fix the size of heading's icon*/
+.amazon_icon{
+    width: auto;
+    height: 32px;
+}
+
+/*set the size of heading's right side*/
+.content_right{
+    float: right;
+}
+
+/*set the color and size of the content item by heading*/
+.content_item {
+    color: white;
+    display: inline-block;
+    padding: 6px 10px;
+    margin-left: 6px;
+    border: 1px solid transparent;
+    vertical-align: top;
+}
+
+/*set the color and size of the upper content item by heading*/
+.item1{
+    display: block;
+    font-size: 11px;
+    color: white;
+    line-height: 13px;
+}
+
+/*set the color and size of the lower content item by heading*/
+.item2 {
+  display: block; 
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  line-height: 20px;
 }
